@@ -1,0 +1,29 @@
+# Default to LF line endings for all text files
+* text=auto eol=lf
+
+# Mark common file types as text (normalize)
+*.py     text
+*.md     text
+*.txt    text
+*.yml    text
+*.yaml   text
+*.json   text
+*.toml   text
+*.xml    text
+*.html   text
+*.css    text
+*.js     text
+*.ts     text
+
+# Binary files (do not modify line endings)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+*.exe    binary
+*.dll    binary
